@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>IDF Stations – Politique de confidentialité / Privacy Policy</title>
+  <meta name="description" content="Politique de confidentialité de l’app iOS IDF Stations / Privacy policy of the IDF Stations iOS app.">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header wrap">
+  <a class="brand" href="privacy.html">
+    <img class="app-icon" src="icon.png" width="96" height="96" alt="">
+    <span class="app-name">IDF Stations</span>
+  </a>
+  <div>
+    <nav class="pills" aria-label="Langue / Language">
+      <a href="#fr" lang="fr" hreflang="fr">Français</a>
+      <a href="#en" lang="en" hreflang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ===================== FRANÇAIS ===================== -->
+  <div id="fr" class="lang-block" lang="fr">
+    <h1 class="center">Politique de confidentialité</h1>
+    <p class="updated center">Dernière mise à jour : 19 novembre 2026 · Application IDF Stations, version 1.0.1</p>
+
+    <p class="summary">IDF Stations n’a ni compte, ni publicité, ni statistiques d’usage, ni pistage, ni SDK tiers. Votre position sert à interroger Île-de-France Mobilités ; elle n’est jamais enregistrée par l’app.</p>
+
+    <section class="card">
+      <h2>Qui est responsable ?</h2>
+      <p>L’application est éditée par JCAnger, Barbizon, France. Contact : <a href="mailto:jcanger13@me.com">jcanger13@me.com</a>.</p>
+      <p>L’éditeur n’exploite aucun serveur pour l’app : il ne reçoit ni ne conserve aucune de vos données.</p>
+    </section>
+
+    <section class="card">
+      <h2>En bref : ce qui se passe avec vos données</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Donnée</th><th>Pourquoi</th><th>Où va-t-elle ?</th><th>Conservation</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Position précise (pendant l’usage de l’app)</td>
+              <td>Trouver les arrêts proches, afficher votre point sur la carte</td>
+              <td>Coordonnées et rayon envoyés à Île-de-France Mobilités (données ouvertes)</td>
+              <td>Aucune par l’app ; mémoire vive uniquement, effacée à la fermeture</td>
+            </tr>
+            <tr>
+              <td>Cap de la boussole</td>
+              <td>Orienter les flèches de direction</td>
+              <td>Reste sur l’appareil</td>
+              <td>Aucune</td>
+            </tr>
+            <tr>
+              <td>Identifiant de l’arrêt consulté</td>
+              <td>Afficher les prochains passages</td>
+              <td>Plateforme PRIM d’Île-de-France Mobilités</td>
+              <td>Aucune par l’app</td>
+            </tr>
+            <tr>
+              <td>Réglages et lignes favorites</td>
+              <td>Mémoriser vos préférences</td>
+              <td>Reste sur l’appareil</td>
+              <td>Jusqu’à la suppression de l’app</td>
+            </tr>
+            <tr>
+              <td>Adresse IP</td>
+              <td>Fonctionnement normal d’une connexion Internet</td>
+              <td>Serveurs d’Île-de-France Mobilités et d’Apple (cartes)</td>
+              <td>Selon leurs propres politiques</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Votre position</h2>
+      <p>L’app demande l’autorisation d’accéder à votre position <strong>uniquement lorsqu’elle est active</strong> (jamais en arrière-plan). Elle sert à :</p>
+      <ul>
+        <li>trouver les arrêts de bus et les stations de métro, RER et tram proches ;</li>
+        <li>afficher votre position sur la carte ;</li>
+        <li>calculer la direction et la distance des arrêts.</li>
+      </ul>
+      <p>Pour obtenir la liste des arrêts, vos coordonnées, le rayon de recherche et le type de transport choisi sont envoyés au service de données ouvertes d’Île-de-France Mobilités (<code>data.iledefrance-mobilites.fr</code>) dans l’adresse de la requête. Ils sont renvoyés à chaque actualisation ou déplacement significatif.</p>
+      <p>L’app ne les écrit pas sur l’appareil, ne les associe à aucun identifiant et ne les transmet à personne d’autre. Un cache en mémoire vive, de quelques minutes, évite de répéter les requêtes ; il disparaît quand l’app est fermée.</p>
+      <p><strong>Base légale :</strong> votre consentement (art. 6.1.a du RGPD), donné via l’autorisation de localisation d’iOS. Vous pouvez le retirer à tout moment dans <em>Réglages › Confidentialité et sécurité › Service de localisation › IDF Stations</em>. Sans cette autorisation, l’app ne peut pas afficher les arrêts proches de vous.</p>
+    </section>
+
+    <section class="card">
+      <h2>Horaires en temps réel</h2>
+      <p>Lorsque vous ouvrez une station, l’app envoie l’identifiant de cet arrêt à la plateforme PRIM d’Île-de-France Mobilités (<code>prim.iledefrance-mobilites.fr</code>) pour obtenir les prochains passages. Votre position n’est pas envoyée à PRIM. La requête contient une clé d’API qui identifie l’application, et non vous.</p>
+      <p><strong>Base légale :</strong> exécution du service que vous demandez (art. 6.1.b du RGPD).</p>
+    </section>
+
+    <section class="card">
+      <h2>Données enregistrées sur l’appareil</h2>
+      <p>Les réglages suivants sont enregistrés localement (<code>UserDefaults</code>) : rayon de recherche, couleur d’accentuation, apparence, style des pastilles, filtre « mes lignes » et liste de vos lignes favorites. Ces données ne quittent pas votre appareil et sont supprimées avec l’app. Le bouton « Tout effacer » de l’écran des lignes favorites retire vos favoris.</p>
+    </section>
+
+    <section class="card">
+      <h2>Services tiers</h2>
+      <p>L’app n’intègre aucun SDK ni bibliothèque tierce de mesure d’audience, de publicité ou de suivi. Les destinataires de données sont :</p>
+      <ul>
+        <li><strong>Île-de-France Mobilités</strong> (données ouvertes et PRIM) : reçoit les requêtes décrites ci-dessus, dont l’adresse IP de votre appareil. <a href="https://www.iledefrance-mobilites.fr/donnees-personnelles">Sa politique de confidentialité</a> s’applique.</li>
+        <li><strong>Apple</strong> : l’affichage de la carte (Apple Plans / MapKit) télécharge des fonds de carte depuis les serveurs d’Apple. Si vous touchez « À pied », l’app ouvre Plans avec le nom et les coordonnées de l’arrêt choisi. <a href="https://www.apple.com/fr/legal/privacy/">La politique de confidentialité d’Apple</a> s’applique.</li>
+      </ul>
+      <p>L’app n’utilise ni cookie, ni identifiant publicitaire, ni suivi inter-apps : aucune demande d’autorisation de suivi n’est nécessaire.</p>
+    </section>
+
+    <section class="card">
+      <h2>Vos droits</h2>
+      <p>L’éditeur ne conservant aucune donnée vous concernant, il n’est en pratique pas en mesure de la consulter ou de la modifier. Vous disposez néanmoins, selon le RGPD, des droits d’accès, de rectification, d’effacement, de limitation, d’opposition et de retrait du consentement. Pour les données traitées par Île-de-France Mobilités ou Apple, adressez-vous directement à ces organismes.</p>
+      <p>Pour toute question, écrivez à <a href="mailto:jcanger13@me.com">jcanger13@me.com</a>. Vous pouvez aussi introduire une réclamation auprès de la CNIL : <a href="https://www.cnil.fr/fr/plaintes">cnil.fr/fr/plaintes</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Ce site</h2>
+      <p>Cette page est hébergée sur GitHub Pages. Elle n’utilise ni cookie, ni script, ni outil de mesure d’audience. Comme tout hébergeur, GitHub peut traiter votre adresse IP lors de la visite, selon <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">sa propre politique</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Modifications</h2>
+      <p>Si le fonctionnement de l’app change, cette page sera mise à jour et la date ci-dessus modifiée.</p>
+    </section>
+  </div>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <div id="en" class="lang-block" lang="en">
+    <h1 class="center">Privacy Policy</h1>
+    <p class="updated center">Last updated: November 19, 2026 · IDF Stations app, version 1.0.1</p>
+
+    <p class="summary">IDF Stations has no account, no advertising, no usage analytics, no tracking and no third-party SDK. Your location is used to query Île-de-France Mobilités; the app never stores it.</p>
+
+    <section class="card">
+      <h2>Who is responsible?</h2>
+      <p>The app is published by JCAnger, Barbizon, France. Contact: <a href="mailto:jcanger13@me.com">jcanger13@me.com</a>.</p>
+      <p>The publisher runs no server for the app: it neither receives nor keeps any of your data.</p>
+    </section>
+
+    <section class="card">
+      <h2>At a glance: what happens to your data</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Data</th><th>Why</th><th>Where does it go?</th><th>Retention</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Precise location (while the app is in use)</td>
+              <td>Find nearby stops, show your position on the map</td>
+              <td>Coordinates and radius sent to Île-de-France Mobilités (open data)</td>
+              <td>None by the app; memory only, cleared when the app closes</td>
+            </tr>
+            <tr>
+              <td>Compass heading</td>
+              <td>Point the direction arrows</td>
+              <td>Stays on your device</td>
+              <td>None</td>
+            </tr>
+            <tr>
+              <td>Identifier of the stop you view</td>
+              <td>Show upcoming departures</td>
+              <td>Île-de-France Mobilités PRIM platform</td>
+              <td>None by the app</td>
+            </tr>
+            <tr>
+              <td>Settings and favorite lines</td>
+              <td>Remember your preferences</td>
+              <td>Stays on your device</td>
+              <td>Until you delete the app</td>
+            </tr>
+            <tr>
+              <td>IP address</td>
+              <td>Normal operation of an internet connection</td>
+              <td>Île-de-France Mobilités and Apple (maps) servers</td>
+              <td>Per their own policies</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Your location</h2>
+      <p>The app asks for access to your location <strong>only while it is active</strong> (never in the background). It is used to:</p>
+      <ul>
+        <li>find nearby bus stops and metro, RER and tram stations;</li>
+        <li>show your position on the map;</li>
+        <li>compute the direction and distance to stops.</li>
+      </ul>
+      <p>To get the list of stops, your coordinates, the search radius and the selected transport type are sent to the Île-de-France Mobilités open data service (<code>data.iledefrance-mobilites.fr</code>) within the request address. They are sent again on each refresh or significant move.</p>
+      <p>The app doesn’t write them to your device, doesn’t link them to any identifier and doesn’t share them with anyone else. A short-lived in-memory cache avoids repeating requests; it disappears when the app is closed.</p>
+      <p><strong>Legal basis:</strong> your consent (GDPR art. 6.1.a), given through the iOS location permission. You can withdraw it at any time in <em>Settings › Privacy &amp; Security › Location Services › IDF Stations</em>. Without this permission, the app can’t show stops near you.</p>
+    </section>
+
+    <section class="card">
+      <h2>Real-time departures</h2>
+      <p>When you open a station, the app sends that stop’s identifier to the Île-de-France Mobilités PRIM platform (<code>prim.iledefrance-mobilites.fr</code>) to get upcoming departures. Your location is not sent to PRIM. The request carries an API key that identifies the application, not you.</p>
+      <p><strong>Legal basis:</strong> performance of the service you request (GDPR art. 6.1.b).</p>
+    </section>
+
+    <section class="card">
+      <h2>Data stored on your device</h2>
+      <p>The following settings are stored locally (<code>UserDefaults</code>): search radius, accent color, appearance, line badge style, the “my lines only” filter and your list of favorite lines. This data never leaves your device and is deleted with the app. The “Clear all” button on the favorite lines screen removes your favorites.</p>
+    </section>
+
+    <section class="card">
+      <h2>Third-party services</h2>
+      <p>The app includes no third-party SDK or library for analytics, advertising or tracking. Data recipients are:</p>
+      <ul>
+        <li><strong>Île-de-France Mobilités</strong> (open data and PRIM): receives the requests described above, including your device’s IP address. <a href="https://www.iledefrance-mobilites.fr/donnees-personnelles">Its privacy policy</a> applies.</li>
+        <li><strong>Apple</strong>: displaying the map (Apple Maps / MapKit) downloads map tiles from Apple’s servers. If you tap “À pied” (walking directions), the app opens Maps with the selected stop’s name and coordinates. <a href="https://www.apple.com/legal/privacy/">Apple’s privacy policy</a> applies.</li>
+      </ul>
+      <p>The app uses no cookies, no advertising identifier and no cross-app tracking: no tracking permission is required.</p>
+    </section>
+
+    <section class="card">
+      <h2>Your rights</h2>
+      <p>Since the publisher keeps no data about you, it cannot in practice access or modify any. Under the GDPR you nevertheless have the rights of access, rectification, erasure, restriction, objection and withdrawal of consent. For data processed by Île-de-France Mobilités or Apple, contact them directly.</p>
+      <p>For any question, write to <a href="mailto:jcanger13@me.com">jcanger13@me.com</a>. You may also lodge a complaint with your data protection authority; in France, the CNIL: <a href="https://www.cnil.fr/en/complaints">cnil.fr/en/complaints</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>This website</h2>
+      <p>This page is hosted on GitHub Pages. It uses no cookies, no scripts and no analytics. Like any host, GitHub may process your IP address when you visit, per <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">its own policy</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Changes</h2>
+      <p>If the way the app works changes, this page will be updated and the date above revised.</p>
+    </section>
+  </div>
+
+</main>
+
+<footer class="site-footer wrap">
+  <p><a href="support.html">Assistance / Support</a> · <a href="mailto:jcanger13@me.com">jcanger13@me.com</a></p>
+  <p>© 2026 IDF Stations</p>
+</footer>
+
+</body>
+</html>
