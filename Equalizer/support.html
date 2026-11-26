@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <title>Equalizer – Assistance / Support</title>
+  <meta name="description" content="Assistance pour l’app iOS Equalizer : mesurer vos enceintes avec un bruit rose ou blanc, lire la courbe, dépannage / Support for the Equalizer iOS app.">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header wrap">
+  <a class="brand" href="support.html">
+    <img class="app-icon" src="icon.png" width="96" height="96" alt="">
+    <span class="app-name">Equalizer</span>
+  </a>
+  <div>
+    <nav class="pills" aria-label="Langue / Language">
+      <a href="#fr" lang="fr" hreflang="fr">Français</a>
+      <a href="#en" lang="en" hreflang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ===================== FRANÇAIS ===================== -->
+  <div id="fr" class="lang-block" lang="fr">
+    <h1 class="center">Assistance</h1>
+    <p class="lead center">Equalizer joue un bruit rose ou blanc vers vos enceintes (par AirPlay, par exemple) et affiche, avec le micro du même appareil, le spectre réellement restitué. Retrouvez ici les réponses aux questions les plus fréquentes.</p>
+
+    <section class="card">
+      <h2>Premiers pas</h2>
+      <details>
+        <summary>Comment faire une mesure&nbsp;?</summary>
+        <p>1. Touchez le bouton en forme d’ondes et choisissez un bruit&nbsp;: Bruit rose, Bruit blanc ou Générateur…. «&nbsp;Aucun&nbsp;» écoute seulement le micro, sans émettre de son.</p>
+        <p>2. Touchez l’icône AirPlay pour choisir la sortie audio vers vos enceintes.</p>
+        <p>3. Touchez le bouton rond ▶ «&nbsp;Mesurer&nbsp;»&nbsp;: le bruit démarre et la mesure commence. Touchez ■ pour arrêter les deux.</p>
+        <p>Le micro s’ouvre dès le lancement de l’app&nbsp;: la courbe s’affiche en direct, même avant de lancer une mesure.</p>
+      </details>
+      <details>
+        <summary>Quel bruit choisir&nbsp;?</summary>
+        <p>Le <strong>bruit rose</strong> répartit son énergie à égalité entre les octaves, un peu comme la musique&nbsp;: c’est le choix recommandé pour tester des enceintes. Le <strong>bruit blanc</strong> répartit son énergie à égalité entre les fréquences, ce qui le rend plus riche en aigus.</p>
+        <p>Le <strong>Générateur…</strong> propose aussi un balayage (un son pur qui monte ou descend en continu entre deux fréquences) et un bruit rose limité à une bande (graves, médiums ou aigus) pour tester une seule zone.</p>
+      </details>
+      <details>
+        <summary>Que montre la ligne en pointillés&nbsp;?</summary>
+        <p>C’est le bruit que l’app génère, dessiné derrière la courbe captée par le micro. Les deux niveaux ne sont comparables que par leur forme&nbsp;: la ligne en pointillés est donc calée sur la courbe mesurée dans les médiums (250&nbsp;Hz–2&nbsp;kHz). Les écarts entre les deux révèlent ce que vos enceintes ou la pièce atténuent ou exagèrent.</p>
+      </details>
+      <details>
+        <summary>Comment lire l’analyse des enceintes&nbsp;?</summary>
+        <p>Lancez une mesure et laissez-la tourner quelques dizaines de secondes, puis touchez le bouton d’analyse. L’app moyenne le son capté et le compare au bruit généré, zone par zone (sub-graves, graves, bas-médiums, médiums, haut-médiums, présence, aigus).</p>
+        <p>Chaque zone reçoit un verdict&nbsp;: <em>Manque</em>, <em>Équilibré</em> ou <em>Excès</em>. Un écart de moins de 3&nbsp;dB est jugé équilibré. Tous les écarts sont relatifs aux médiums. Sans bruit généré (choix «&nbsp;Aucun&nbsp;»), l’app compare à un spectre musical typique, qui décroît de 3&nbsp;dB par octave.</p>
+      </details>
+    </section>
+
+    <section class="card">
+      <h2>Dépannage</h2>
+      <details>
+        <summary>Le bouton Mesurer est grisé</summary>
+        <p>Le micro n’est pas ouvert. Autorisez-le dans <em>Réglages › Confidentialité et sécurité › Microphone</em>, puis revenez dans l’app et touchez «&nbsp;Réessayer&nbsp;» si le message d’erreur s’affiche.</p>
+      </details>
+      <details>
+        <summary>Je n’entends aucun son</summary>
+        <p>Pendant la lecture, une ligne «&nbsp;Sortie actuelle&nbsp;» s’affiche en haut du graphe&nbsp;: elle indique la sortie utilisée et le volume média. Vérifiez qu’il s’agit bien de vos enceintes, que le volume est suffisant et que l’enceinte AirPlay ou Bluetooth est allumée. Choisissez la sortie avec l’icône AirPlay.</p>
+      </details>
+      <details>
+        <summary>La courbe a un retard avec AirPlay</summary>
+        <p>AirPlay ajoute environ deux secondes de latence. Pour un bruit continu, cela ne change pas la mesure. Pour un balayage, le micro entend le son avec du retard par rapport à la ligne en pointillés. Au début d’une mesure, les premières secondes captent surtout le bruit de la pièce.</p>
+      </details>
+      <details>
+        <summary>Les résultats varient d’une mesure à l’autre</summary>
+        <p>Placez l’appareil à l’endroit où vous écoutez, dans une pièce calme, sans le déplacer. Évitez de changer de bruit pendant la mesure&nbsp;: elle repart alors de zéro. Plus la mesure dure, plus la moyenne est stable.</p>
+      </details>
+    </section>
+
+    <section class="card">
+      <h2>Réglages</h2>
+      <details>
+        <summary>À quoi servent les réglages&nbsp;?</summary>
+        <p>Le bouton de réglages permet de choisir le style d’affichage (barres ou courbe), la plage de fréquences, le nombre de bandes, la taille de la FFT (une valeur plus grande donne plus de précision en fréquence mais une réponse plus lente), les niveaux affichés en dB, et la réactivité de la courbe (attaque et relâchement). «&nbsp;Réinitialiser&nbsp;» rétablit les valeurs par défaut.</p>
+      </details>
+      <details>
+        <summary>Mes réglages reviennent à zéro au lancement</summary>
+        <p>C’est normal&nbsp;: les réglages ne sont pas enregistrés d’un lancement à l’autre. Ils restent actifs tant que l’app est ouverte.</p>
+      </details>
+    </section>
+
+    <section class="card">
+      <h2>Vie privée</h2>
+      <details>
+        <summary>Le son du micro est-il enregistré&nbsp;?</summary>
+        <p>Non. Le son est analysé en direct dans la mémoire de l’appareil, sans être enregistré ni envoyé. L’éditeur ne collecte aucune donnée personnelle. Les détails sont dans la <a href="privacy.html">politique de confidentialité</a>.</p>
+      </details>
+    </section>
+
+    <section class="card center">
+      <h2>Besoin d’aide supplémentaire&nbsp;?</h2>
+      <p>Décrivez le problème rencontré et indiquez, si possible, la version de l’app et celle d’iOS, ainsi que la sortie audio utilisée.</p>
+      <p><a class="button" href="mailto:jcanger13@me.com?subject=Assistance%20Equalizer">Contacter l’assistance</a></p>
+      <p class="updated">Configuration requise : iPhone ou iPad sous iOS&nbsp;18 ou ultérieur.</p>
+    </section>
+  </div>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <div id="en" class="lang-block" lang="en">
+    <h1 class="center">Support</h1>
+    <p class="lead center">Equalizer plays pink or white noise to your speakers (over AirPlay, for example) and shows, using the same device’s microphone, the spectrum they actually reproduce. Find answers to the most common questions below.</p>
+
+    <section class="card">
+      <h2>Getting started</h2>
+      <details>
+        <summary>How do I take a measurement?</summary>
+        <p>1. Tap the wave-shaped button and choose a noise: pink noise, white noise or Generator…. “None” only listens to the microphone, without playing any sound.</p>
+        <p>2. Tap the AirPlay icon to choose the audio output to your speakers.</p>
+        <p>3. Tap the round ▶ “Measure” button: the noise starts and the measurement begins. Tap ■ to stop both.</p>
+        <p>The microphone opens as soon as the app launches: the curve is displayed live, even before you start a measurement.</p>
+      </details>
+      <details>
+        <summary>Which noise should I choose?</summary>
+        <p><strong>Pink noise</strong> spreads its energy equally across octaves, much like music: it is the recommended choice for testing speakers. <strong>White noise</strong> spreads its energy equally across frequencies, which makes it richer in treble.</p>
+        <p>The <strong>Generator…</strong> also offers a sweep (a pure tone rising or falling continuously between two frequencies) and pink noise limited to one band (bass, mids or treble) to test a single zone.</p>
+      </details>
+      <details>
+        <summary>What is the dashed line?</summary>
+        <p>It is the noise the app generates, drawn behind the curve picked up by the microphone. The two levels can only be compared by shape: the dashed line is therefore aligned with the measured curve in the midrange (250&nbsp;Hz–2&nbsp;kHz). The differences between the two reveal what your speakers or the room attenuate or exaggerate.</p>
+      </details>
+      <details>
+        <summary>How do I read the speaker analysis?</summary>
+        <p>Start a measurement and let it run for a few dozen seconds, then tap the analysis button. The app averages the captured sound and compares it with the generated noise, zone by zone (sub-bass, bass, low mids, mids, upper mids, presence, treble).</p>
+        <p>Each zone gets a verdict: <em>Lacking</em>, <em>Balanced</em> or <em>Excess</em>. A difference of less than 3&nbsp;dB is considered balanced. All differences are relative to the midrange. With no generated noise (the “None” choice), the app compares against a typical music spectrum, which falls by 3&nbsp;dB per octave.</p>
+      </details>
+    </section>
+
+    <section class="card">
+      <h2>Troubleshooting</h2>
+      <details>
+        <summary>The Measure button is dimmed</summary>
+        <p>The microphone is not open. Allow it in <em>Settings › Privacy &amp; Security › Microphone</em>, then come back to the app and tap “Retry” if the error message is shown.</p>
+      </details>
+      <details>
+        <summary>I can’t hear any sound</summary>
+        <p>While playing, a “Current output” line appears at the top of the graph: it shows the output in use and the media volume. Check that it is your speakers, that the volume is high enough and that the AirPlay or Bluetooth speaker is on. Choose the output with the AirPlay icon.</p>
+      </details>
+      <details>
+        <summary>The curve lags behind with AirPlay</summary>
+        <p>AirPlay adds about two seconds of latency. For continuous noise, this doesn’t change the measurement. For a sweep, the microphone hears the sound late compared with the dashed line. At the start of a measurement, the first seconds mostly capture room noise.</p>
+      </details>
+      <details>
+        <summary>Results vary from one measurement to the next</summary>
+        <p>Place the device where you listen, in a quiet room, and don’t move it. Avoid changing the noise during a measurement: it restarts from zero. The longer the measurement, the steadier the average.</p>
+      </details>
+    </section>
+
+    <section class="card">
+      <h2>Settings</h2>
+      <details>
+        <summary>What do the settings do?</summary>
+        <p>The settings button lets you choose the display style (bars or curve), the frequency range, the number of bands, the FFT size (a larger value gives finer frequency precision but a slower response), the levels shown in dB, and the curve’s responsiveness (attack and release). “Reset” restores the defaults.</p>
+      </details>
+      <details>
+        <summary>My settings go back to defaults at launch</summary>
+        <p>That’s expected: settings are not saved from one launch to the next. They stay active while the app is open.</p>
+      </details>
+    </section>
+
+    <section class="card">
+      <h2>Privacy</h2>
+      <details>
+        <summary>Is the microphone sound recorded?</summary>
+        <p>No. The sound is analyzed live in the device’s memory, without being recorded or sent. The publisher collects no personal data. Details are in the <a href="privacy.html#en">privacy policy</a>.</p>
+      </details>
+    </section>
+
+    <section class="card center">
+      <h2>Need more help?</h2>
+      <p>Describe the problem you’re having and, if possible, include the app version, your iOS version and the audio output you use.</p>
+      <p><a class="button" href="mailto:jcanger13@me.com?subject=Equalizer%20Support">Contact support</a></p>
+      <p class="updated">Requirements: iPhone or iPad running iOS&nbsp;18 or later.</p>
+    </section>
+  </div>
+
+</main>
+
+<footer class="site-footer wrap">
+  <p><a href="privacy.html">Confidentialité / Privacy</a> · <a href="mailto:jcanger13@me.com">jcanger13@me.com</a></p>
+  <p>© 2026 Equalizer</p>
+</footer>
+
+</body>
+</html>
