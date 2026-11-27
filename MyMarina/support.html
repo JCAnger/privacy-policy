@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>MyMarina — Assistance</title>
+    <style>
+        :root { color-scheme: light dark; --accent: #007f87; --surface: #fff; --background: #f3f8f8; --text: #172126; --secondary: #53616a; --line: #d6e2e3; }
+        @media (prefers-color-scheme: dark) { :root { --accent: #54d6d2; --surface: #1c2529; --background: #0d1316; --text: #eef5f5; --secondary: #afc0c3; --line: #34464b; } }
+        * { box-sizing: border-box; } body { margin: 0; background: var(--background); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; }
+        main, header, footer { width: min(100% - 2.5rem, 780px); margin: auto; } header { padding: 4rem 0 1.5rem; text-align: center; } main { padding-bottom: 3rem; } footer { padding: 1.5rem 0 3rem; text-align: center; color: var(--secondary); font-size: .9rem; }
+        h1 { margin: 0; font-size: clamp(2.2rem, 8vw, 3.4rem); letter-spacing: -.04em; } h2 { margin: 0 0 .6rem; font-size: 1.35rem; letter-spacing: -.02em; } p { margin: .6rem 0 0; } a { color: var(--accent); } .subtitle { color: var(--secondary); }
+        .lang { display: inline-flex; gap: .4rem; margin-top: 1.25rem; padding: .25rem; border: 1px solid var(--line); border-radius: 999px; } .lang a { padding: .25rem .75rem; text-decoration: none; } .card { margin-top: 1.25rem; padding: 1.5rem; border: 1px solid var(--line); border-radius: 18px; background: var(--surface); }
+        details { padding: 1rem 0; border-top: 1px solid var(--line); } details:first-of-type { margin-top: .5rem; } summary { cursor: pointer; font-weight: 650; } details p { color: var(--secondary); } .button { display: inline-block; margin-top: .5rem; padding: .65rem 1rem; border-radius: 10px; background: var(--accent); color: #fff; font-weight: 650; text-decoration: none; }
+        .en, .footer-en { display: none; } body:has(#en:target) .fr, body:has(#en:target) .footer-fr { display: none; } #en:target, body:has(#en:target) .footer-en { display: block; }
+    </style>
+</head>
+<body>
+    <header><h1>MyMarina</h1><p class="subtitle">Assistance / Support</p><nav class="lang" aria-label="Langue / Language"><a href="#fr">Français</a><a href="#en">English</a></nav></header>
+    <main id="fr" class="fr" lang="fr">
+        <h2>Assistance</h2><p>MyMarina vous aide à consulter les ports de plaisance et à préparer votre navigation.</p>
+        <section class="card"><h2>Localisation et carte</h2><details><summary>Pourquoi MyMarina demande-t-elle ma position ?</summary><p>Votre position sert à vous situer sur la carte et à repérer les ports près de vous. Elle est utilisée uniquement lorsque vous autorisez l’app à y accéder.</p></details><details><summary>La position ne s’affiche pas</summary><p>Vérifiez que le service de localisation est activé et que MyMarina est autorisée dans <em>Réglages › Confidentialité et sécurité › Service de localisation</em>. Une connexion Internet est aussi nécessaire pour charger les fonds de carte.</p></details><details><summary>La carte ne se charge pas</summary><p>Vérifiez votre connexion Internet, puis réessayez. Les données de carte sont fournies par Apple Maps.</p></details></section>
+        <section class="card"><h2>Ports et positions</h2><details><summary>Comment ajouter un port ?</summary><p>Ouvrez la liste des ports personnalisés, puis ajoutez un port et placez-le sur la carte. Les ports que vous créez sont signalés comme personnalisés et restent sur votre appareil.</p></details><details><summary>Comment modifier ou supprimer un port ajouté ?</summary><p>Dans la liste des ports personnalisés, ouvrez le port concerné pour le modifier ou le supprimer.</p></details><details><summary>À quoi servent les positions virtuelles et les traces ?</summary><p>Elles permettent de simuler une position ou de parcourir une trace dans l’app. Elles sont enregistrées localement et vous pouvez les supprimer dans l’app.</p></details></section>
+        <section class="card"><h2>Vie privée</h2><p>MyMarina n’utilise ni publicité ni suivi. Consultez la <a href="privacy.html">politique de confidentialité</a> pour en savoir plus sur les données utilisées par l’app.</p></section>
+        <section class="card"><h2>Nous contacter</h2><p>Décrivez le problème rencontré et, si possible, indiquez la version de MyMarina, la version d’iOS ou macOS et les étapes permettant de reproduire le problème.</p><a class="button" href="mailto:jcanger13@me.com?subject=Assistance%20MyMarina">Contacter l’assistance</a></section>
+    </main>
+    <main id="en" class="en" lang="en">
+        <h2>Support</h2><p>MyMarina helps you browse marinas and prepare your navigation.</p>
+        <section class="card"><h2>Location and map</h2><details><summary>Why does MyMarina ask for my location?</summary><p>Your location is used to show where you are on the map and help you find nearby marinas. It is used only when you allow the app to access it.</p></details><details><summary>My position is not shown</summary><p>Check that Location Services are on and that MyMarina is allowed in <em>Settings › Privacy &amp; Security › Location Services</em>. An internet connection is also needed to load map tiles.</p></details><details><summary>The map does not load</summary><p>Check your internet connection, then try again. Map data is provided by Apple Maps.</p></details></section>
+        <section class="card"><h2>Marinas and positions</h2><details><summary>How do I add a marina?</summary><p>Open the custom marinas list, add a marina, then place it on the map. Marinas you create are marked as custom and stay on your device.</p></details><details><summary>How do I edit or remove an added marina?</summary><p>In the custom marinas list, open the relevant marina to edit or delete it.</p></details><details><summary>What are virtual positions and tracks for?</summary><p>They let you simulate a position or follow a track in the app. They are stored locally and can be removed in the app.</p></details></section>
+        <section class="card"><h2>Privacy</h2><p>MyMarina uses no advertising or tracking. Read the <a href="privacy.html#en">privacy policy</a> to learn more about data used by the app.</p></section>
+        <section class="card"><h2>Contact us</h2><p>Please describe the issue and, if possible, include the MyMarina version, your iOS or macOS version, and steps to reproduce the problem.</p><a class="button" href="mailto:jcanger13@me.com?subject=MyMarina%20Support">Contact support</a></section>
+    </main>
+    <footer><span class="footer-fr"><a href="privacy.html">Politique de confidentialité</a></span><span class="footer-en"><a href="privacy.html#en">Privacy Policy</a></span></footer>
+</body>
+</html>
